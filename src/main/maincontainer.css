@@ -34,15 +34,20 @@ h1 {
 .desktop-image {
   display: none;
 }
+
+.box-wrapper {
+  display: none;
+}
 @media only screen and (min-width: 90rem) {
   .outer-wrapper {
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
   }
 
   .container {
     flex-direction: row;
     width: 92rem;
-    overflow: visible;
+    overflow: hidden;
     padding: 6.5rem 9.5rem 8.3rem 47.5rem;
   }
 
@@ -68,10 +73,11 @@ h1 {
     left: -105rem;
   }
 
-  .box {
+  .box-wrapper {
+    display: block;
     position: absolute;
-    z-index: 2;
-    top: 36rem;
-    left: 17.5rem;
+    top: 34%;
+    left: -10%;
+    z-index: 10;
   }
 }
