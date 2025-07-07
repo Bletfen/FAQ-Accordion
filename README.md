@@ -43,13 +43,6 @@ src/
 ├── App.jsx
 └── main.jsx
 
-## 📷 Preview
-
-<div align="center">
-  <img src="./preview-mobile.png" alt="Mobile preview" width="250"/>
-  <img src="./preview-desktop.png" alt="Desktop preview" width="500"/>
-</div>
-
 ## 🔧 How to Run Locally
 
 1. **Clone the repository**
