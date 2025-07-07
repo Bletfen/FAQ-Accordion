@@ -12,7 +12,7 @@ export default function Question({ question, answer, isSelected, onClick }) {
           >
             {question}
           </p>
-          {isSelected ? (
+          {!isSelected ? (
             <svg
               width="9"
               height="7"
