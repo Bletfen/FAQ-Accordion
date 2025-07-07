@@ -1,4 +1,6 @@
 .container {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   width: 32.7rem;
   padding: 13.2rem 2.4rem 4.8rem;
@@ -27,4 +29,49 @@ h1 {
   font-weight: 700;
   margin-bottom: 3.8rem;
   text-align: center;
+}
+
+.desktop-image {
+  display: none;
+}
+@media only screen and (min-width: 90rem) {
+  .outer-wrapper {
+    overflow: hidden;
+  }
+
+  .container {
+    flex-direction: row;
+    width: 92rem;
+    overflow: visible;
+    padding: 6.5rem 9.5rem 8.3rem 47.5rem;
+  }
+
+  .img-wrapper {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+    position: absolute;
+  }
+
+  .hero {
+    position: absolute;
+    top: -3rem;
+    left: -56rem;
+    z-index: 1;
+  }
+
+  .bg {
+    position: absolute;
+    top: -38rem;
+    left: -105rem;
+  }
+
+  .box {
+    position: absolute;
+    z-index: 2;
+    top: 36rem;
+    left: 17.5rem;
+  }
 }

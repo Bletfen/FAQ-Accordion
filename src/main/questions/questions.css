@@ -37,3 +37,17 @@
   flex-direction: column;
   gap: 1.9rem;
 }
+
+@media only screen and (min-width: 90rem) {
+  .question-wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  .question-text {
+    font-size: 1.4rem;
+  }
+}
