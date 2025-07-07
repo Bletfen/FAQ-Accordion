@@ -1,12 +1,86 @@
-# React + Vite
+# FAQ Accordion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive **FAQ Accordion** built with **React**. Users can click on each question to reveal or hide the corresponding answer. The design is responsive and optimized for both mobile and desktop layouts, including custom background illustrations.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive question-and-answer toggling
+- Mobile and desktop background images using `background-image`
+- Clean and modern UI
+- CSS transitions for smooth opening/closing
+- Component-based React structure
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (with Vite)
+- **CSS3** (custom styling)
+- **HTML5**
+- **Responsive Design**
+
+...
+
+## 📍 Live Site
+
+👉 [Click here to view the live project](https://faq-accordion-seven-gray.vercel.app/)
+
+...
+
+## 📁 Folder Structure
+
+src/
+│
+├── components/
+│ ├── Main.jsx
+│ ├── Question.jsx
+│ └── QuestionContainer.jsx
+│
+├── assets/
+│ └── images/
+│ ├── illustration-woman-online-mobile.svg
+│ ├── bg-pattern-mobile.svg
+│ └── illustration-box-desktop.svg
+│
+├── App.jsx
+└── main.jsx
+
+## 📷 Preview
+
+<div align="center">
+  <img src="./preview-mobile.png" alt="Mobile preview" width="250"/>
+  <img src="./preview-desktop.png" alt="Desktop preview" width="500"/>
+</div>
+
+## 🔧 How to Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Bletfen/FAQ-Accordion.git
+
+    Navigate to the project folder
+
+cd FAQ-Accordion
+
+    Install dependencies
+
+npm install
+
+    Start the development server
+
+npm run dev
+
+Then open http://localhost:5173 in your browser.
+✅ Functionality Explanation
+
+    Clicking on a question toggles its visibility using useState.
+
+    Only one answer can be expanded at a time.
+
+    Images are positioned using background-image for easier responsiveness.
+
+    Layout adjusts for different screen sizes via media queries.
+
+📜 License
+
+This project is open source and free to use for educational or personal projects.
+```
