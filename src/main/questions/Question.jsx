@@ -1,5 +1,4 @@
 import "./questions.css";
-import { useState } from "react";
 export default function Question({ question, answer, isSelected, onClick }) {
   return (
     <div className="question-container">
