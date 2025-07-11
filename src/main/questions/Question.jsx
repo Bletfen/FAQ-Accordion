@@ -1,7 +1,6 @@
 import "./questions.css";
 import { useState } from "react";
 export default function Question({ question, answer, isSelected, onClick }) {
-  const [selected, setSelected] = useState(false);
   return (
     <div className="question-container">
       <div className="question" onClick={onClick}>
